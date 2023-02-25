@@ -562,22 +562,16 @@ p+p {
   width: auto;
 }
 
+.box_item img {
+  max-width: 100%;
+  max-height: 250px;
+}
+
 .slick-loading .slick-list {
-  background: #bd8050 url("./ajax-loader.gif") center center no-repeat;
+  background: #f5f2e9 url("./ajax-loader.gif") center center no-repeat;
 }
 
 /* Icons */
-@font-face {
-  font-family: "slick";
-  font-weight: normal;
-  font-style: normal;
-
-  src: url("./fonts/slick.eot");
-  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/slick.woff") format("woff"),
-    url("./fonts/slick.ttf") format("truetype"),
-    url("./fonts/slick.svg#slick") format("svg");
-}
 
 /* Arrows */
 .slick-prev,
@@ -697,7 +691,7 @@ p+p {
 .slick-dots li {
   position: relative;
 
-  /*display: inline-block;*/
+  display: inline-block;
 
   width: 20px;
   height: 20px;
